@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(191, 210, 173);
+    margin: 0px;
+    height: 300px;
+    width: auto;
+  }
+    .passwordBody{
+        background-color: rgb(51, 204, 255);
+        padding: 30px;
+    }
+    .passwordHeader{
+        font-size: 30pt;
+    }
+    .header{
+    background-color: rgb(39,32,22);
+    font-size: 36pt;
+    color: rgb(183,21,21);
+    text-align: center;
+    height: 100px;
+    font-family:'Rockwell Nova';
+  }  
+    .welcome{
+    background-color: rgb(39,32,22);
+    font-size: 16pt;
+    color: rgb(183,21,21);
+    text-align: center;
+    height: 40px;
+    margin: 0px;
+    font-family: 'MS Gothic'
+  }
+    .pad{
+      padding: 25px;
+  }
+    .divs{
+      margin: 5px;
+      width: 25%;
+      float: right;
+      border: 2px whitesmoke;
+    } 
+    .text{
+      float: left;
+      width: 60%;
+    }
+    .titles{ 
+    text-align: center;
+    font-size: 50pt;
+    font-family:'Lucida Console';
+    border: 2px solid black;
+    }
+    .setInvisible{
+      visibility: hidden;
+    }
+    .setVisible{
+      visibility: visible;
+    }
+    video::-webkit-media-controls{
+      display:none !important;
+    }
+    #setDisplayNone{
+      display:none;
+    }
+    #background-video {
+      height: 150px;
+      width: 1365px;
+      object-fit: cover;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+    aside{
+      width: 52%;
+      padding-left: 15px;
+      margin-left: 12px;
+      float: right;
+    }
+    .image{
+      width: 97%;
+      height: 200%;
+    }
+    .textLeft{
+      width: 42%;
+      font-family: "Lucida Console";
+      font-size: 18pt;
+      float: left;
+      padding: 12px;
+    }
+    .textRight{
+      width: 42%;
+      font-family: "Lucida Console";
+      font-size: 18pt;
+      float: right;
+      padding: 12px;
+    }
+    .shema{
+      width: 47%;
+      height: 170%;
+      float: center;
+    }
+    .imagePamati{
+      width: 93%;
+    }
+    .underTitles{
+      font-size: 25pt;
+    }
+    .video{
+      width: 30%;
+      height: 100%;
+    }
+    .imagesTable{
+      width: 80%;
+      height: 80%;
+      float: right;
+    }
+    map{
+      display: inline-block;
+    }
+    #ram{
+      display: inline-block;
+      height: 200%;
+      margin-left: 10%;
+      border: 0px;
+      margin-top: 2%;
+      width: 80%;
+      padding-left: 42%;
+    }
+   .vienaBilde{
+    margin-top: 10%;
+   }
+  #special{
+    width: 82%;
+    height: 82%;
+    float: right;
+    padding-left: 50px;
+  }
+  #pirmaTitle{
+    margin-top: -28%;
+  }
+  #pirmaBilde{
+    margin-top: -45%;
+  }
+  #pirmsNosaukums{
+    margin-top: 28%;
+  }
