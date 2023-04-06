@@ -144,3 +144,9 @@ body{
   #pirmsNosaukums{
     margin-top: 28%;
   }
+  #att{
+    border: 2px;
+    width: 95%;
+    height: 170%;
+    float: center;
+  }
