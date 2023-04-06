@@ -83,29 +83,29 @@ function checkPassword(){
     }
     function cam1(index){
         if(index=='5')
-            document.getElementById('att').src = "../GIF/FNAF1_CAM5.gif";
+            document.getElementById('kameras').src = "../GIF/FNAF1_CAM5.gif";
         else if(index=='1A')
-            document.getElementById('att').src = "../GIF/FNAF1_CAM1A.gif";
+            document.getElementById('kameras').src = "../GIF/FNAF1_CAM1A.gif";
         else if(index=='1B')
-            document.getElementById('att').src = "../GIF/FNAF1_CAM1B.gif";
+            document.getElementById('kameras').src = "../GIF/FNAF1_CAM1B.gif";
         else if(index=='1C')
-            document.getElementById('att').src = "../GIF/FNAF1_CAM1C.gif";
+            document.getElementById('kameras').src = "../GIF/FNAF1_CAM1C.gif";
         else if(index=='7')
-            document.getElementById('att').src = "../GIF/FNAF1_CAM7.gif";
+            document.getElementById('kameras').src = "../GIF/FNAF1_CAM7.gif";
         else if(index=='6')
-            document.getElementById('att').src = "../GIF/FNAF1_CAM6.gif";  
+            document.getElementById('kameras').src = "../GIF/FNAF1_CAM6.gif";  
         else if(index=='3')
-            document.getElementById('att').src = "../GIF/FNAF1_CAM3.gif"; 
+            document.getElementById('kameras').src = "../GIF/FNAF1_CAM3.gif"; 
         else if(index=='2A')
-            document.getElementById('att').src = "../GIF/FNAF1_CAM2A.gif";  
+            document.getElementById('kameras').src = "../GIF/FNAF1_CAM2A.gif";  
         else if(index=='2B')
-            document.getElementById('att').src = "../GIF/FNAF1_CAM2B.gif";
+            document.getElementById('kameras').src = "../GIF/FNAF1_CAM2B.gif";
         else if(index=='4A')
-            document.getElementById('att').src = "../GIF/FNAF1_CAM4A.gif";  
+            document.getElementById('kameras').src = "../GIF/FNAF1_CAM4A.gif";  
         else if(index=='4B')
-            document.getElementById('att').src = "../GIF/FNAF1_CAM4B.jpg";
+            document.getElementById('kameras').src = "../GIF/FNAF1_CAM4B.jpg";
         else
-            document.getElementById('att').src = "../GIF/FNAF1_Office.gif";  
+            document.getElementById('kameras').src = "../GIF/FNAF1_Office.gif";  
     }
     function kursors1(){
         document.body.style.cursor = 'pointer';

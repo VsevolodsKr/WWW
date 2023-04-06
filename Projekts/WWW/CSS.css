@@ -97,7 +97,7 @@ body{
     .shema{
       width: 47%;
       height: 170%;
-      float: center;
+      float: left;
     }
     .imagePamati{
       width: 93%;
@@ -144,9 +144,8 @@ body{
   #pirmsNosaukums{
     margin-top: 28%;
   }
-  #att{
-    border: 2px;
-    width: 95%;
+  #kameras{ 
+    width: 94%;
     height: 170%;
-    float: center;
+    margin-top: -51%;
   }
