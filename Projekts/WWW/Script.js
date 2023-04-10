@@ -107,6 +107,66 @@ function checkPassword(){
         else
             document.getElementById('kameras').src = "../GIF/FNAF1_Office.gif";  
     }
+    function cam2(index){
+        if(index=='1')
+            document.getElementById('kameras').src = "../GIF/FNAF2_CAM1.png";
+        else if(index=='2')
+            document.getElementById('kameras').src = "../GIF/FNAF2_CAM2.png";
+        else if(index=='3')
+            document.getElementById('kameras').src = "../GIF/FNAF2_CAM3.png";
+        else if(index=='4')
+            document.getElementById('kameras').src = "../GIF/FNAF2_CAM4.png";
+        else if(index=='5')
+            document.getElementById('kameras').src = "../GIF/FNAF2_CAM5.png";
+        else if(index=='6')
+            document.getElementById('kameras').src = "../GIF/FNAF2_CAM6.png";  
+        else if(index=='7')
+            document.getElementById('kameras').src = "../GIF/FNAF2_CAM7.png"; 
+        else if(index=='8')
+            document.getElementById('kameras').src = "../GIF/FNAF2_CAM8.png";  
+        else if(index=='9')
+            document.getElementById('kameras').src = "../GIF/FNAF2_CAM9.png";
+        else if(index=='10')
+            document.getElementById('kameras').src = "../GIF/FNAF2_CAM10.png";  
+        else if(index=='11')
+            document.getElementById('kameras').src = "../GIF/FNAF2_CAM11.png";
+        else if(index=='12')
+            document.getElementById('kameras').src = "../GIF/FNAF2_CAM12.png";
+        else
+            document.getElementById('kameras').src = "../GIF/FNAF2_Office.png";  
+    }
+    function cam3(index){
+        if(index=='1')
+            document.getElementById('kameras').src = "../GIF/FNAF3_CAM1.png";
+        else if(index=='2')
+            document.getElementById('kameras').src = "../GIF/FNAF3_CAM2.gif";
+        else if(index=='3')
+            document.getElementById('kameras').src = "../GIF/FNAF3_CAM3.png";
+        else if(index=='4')
+            document.getElementById('kameras').src = "../GIF/FNAF3_CAM4.png";
+        else if(index=='5')
+            document.getElementById('kameras').src = "../GIF/FNAF3_CAM5.png";
+        else if(index=='6')
+            document.getElementById('kameras').src = "../GIF/FNAF3_CAM6.png";  
+        else if(index=='7')
+            document.getElementById('kameras').src = "../GIF/FNAF3_CAM7.png"; 
+        else if(index=='8')
+            document.getElementById('kameras').src = "../GIF/FNAF3_CAM8.png";  
+        else if(index=='9')
+            document.getElementById('kameras').src = "../GIF/FNAF3_CAM9.png";
+        else if(index=='10')
+            document.getElementById('kameras').src = "../GIF/FNAF3_CAM10.png";
+        else if(index=='11'){
+        audio = new Audio("../Audio/honk.mp3");
+        audio.play();
+        }
+        else if(index=='12'){
+            audio = new Audio("../Audio/honk.mp3");
+            audio.play();
+        }
+        else
+            document.getElementById('kameras').src = "../GIF/FNAF3_Office.png";  
+    }
     function kursors1(){
         document.body.style.cursor = 'pointer';
     }
