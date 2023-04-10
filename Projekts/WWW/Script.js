@@ -16,6 +16,12 @@ function checkPassword(){
     function returning_FNAF2(){
     window.location.replace("FNAF2.html");
     }
+    function returning_FNAF3(){
+    window.location.replace("FNAF3.html");
+    }
+    function returning_FNAF4(){
+    window.location.replace("FNAF4.html");
+    }
     var video1 = document.getElementById("video1");
     var video2 = document.getElementById("video2");
     var video3 = document.getElementById("video3");
@@ -157,12 +163,21 @@ function checkPassword(){
         else if(index=='10')
             document.getElementById('kameras').src = "../GIF/FNAF3_CAM10.png";
         else if(index=='11'){
-        audio = new Audio("../Audio/honk.mp3");
-        audio.play();
+        var sk = Math.floor(Math.random()*3)+1;
+        switch(sk){
+            case 1:
+                audio = new Audio("../Audio/BB_Hello.mp3");
+                audio.play();
+                break;
+            case 2:
+                audio = new Audio("../Audio/BB_Hi.mp3");
+                audio.play();
+                break;
+            case 3:
+                audio = new Audio("../Audio/BB_laugh.mp3");
+                audio.play();
+                break;
         }
-        else if(index=='12'){
-            audio = new Audio("../Audio/honk.mp3");
-            audio.play();
         }
         else
             document.getElementById('kameras').src = "../GIF/FNAF3_Office.png";  

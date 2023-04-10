@@ -118,12 +118,13 @@ body{
       display: inline-block;
     }
     #ram{
+      border-spacing: 2px;
       display: inline-block;
-      height: 200%;
+      height: 500%;
       margin-left: 10%;
       border: 0px;
       margin-top: 2%;
-      width: 80%;
+      width: 200%;
       padding-left: 42%;
     }
    .vienaBilde{
@@ -148,4 +149,9 @@ body{
     width: 94%;
     height: 170%;
     margin-top: -51%;
+  }
+  .mazasBildes{
+    float: center;
+    margin-left: 30%;
+    width: 30%;
   }
