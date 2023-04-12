@@ -192,4 +192,29 @@ function checkPassword(){
         audio = new Audio("../Audio/honk.mp3");
         audio.play();
     }
-    
+    // var screamerVideo = document.getElementById("screamer");
+    // screamerVideo.onended = function e5(){
+    //     window.location.replace("FNAF4/FNAF4_Noslepumi.html");
+    //     screamerVideo.style.visibility = "hidden";
+    // }
+    // function Video5(){
+    // var v = "visible";
+    // if(screamerVideo.style.visibility != "hidden"){
+    //     v = "visible";
+    //     screamerVideo.style.visibility = v;
+    //     }
+    //     screamerVideo.requestFullscreen();
+    //     tag.style.display = "block";
+    //     screamerVideo.currentTime = 0;
+    //     screamerVideo.play();
+    // }
+    // var rand = Math.floor(Math.random()*14)+0;
+    // function screamer(){
+    // rand++;
+    // if(rand!=15)
+    //     honk();
+    // else{
+    //     Video5();
+    //     rand = Math.floor(Math.random()*15); 
+    // }
+    // }  
