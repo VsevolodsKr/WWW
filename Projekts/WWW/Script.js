@@ -1,3 +1,4 @@
+let rand = Math.floor(Math.random()*15);
 function checkPassword(){
     var password = document.getElementById("passwordBox");
     var passwordValue = password.value;
@@ -26,6 +27,7 @@ function checkPassword(){
     var video2 = document.getElementById("video2");
     var video3 = document.getElementById("video3");
     var video4 = document.getElementById("video4");
+    var screamerVideo = document.getElementById("screamer");
     var tag = document.getElementById("setDisplayNone");
     video1.onended = function e1(){
         window.location.replace("FNAF1/FNAF1.html");
@@ -42,6 +44,10 @@ function checkPassword(){
     video4.onended = function e4(){
         window.location.replace("FNAF4/FNAF4.html");
         video4.style.visibility = "hidden";
+    }  
+    screamerVideo.onended = function e5(){
+        window.location.replace("FNAF4/FNAF4_Noslepumi.html");
+        screamerVideo.style.visibility = "hidden";
     }
     function Video1(){
         var v = "visible";
@@ -86,6 +92,17 @@ function checkPassword(){
         tag.style.display = "block";
         video4.currentTime = 0;
         video4.play();
+    }
+    function Video5(){
+    var v = "visible";
+    if(screamerVideo.style.visibility != "hidden"){
+        v = "visible";
+        screamerVideo.style.visibility = v;
+        }
+        screamerVideo.requestFullscreen();
+        tag.style.display = "block";
+        screamerVideo.currentTime = 0;
+        screamerVideo.play();
     }
     function cam1(index){
         if(index=='5')
@@ -192,29 +209,12 @@ function checkPassword(){
         audio = new Audio("../Audio/honk.mp3");
         audio.play();
     }
-    // var screamerVideo = document.getElementById("screamer");
-    // screamerVideo.onended = function e5(){
-    //     window.location.replace("FNAF4/FNAF4_Noslepumi.html");
-    //     screamerVideo.style.visibility = "hidden";
-    // }
-    // function Video5(){
-    // var v = "visible";
-    // if(screamerVideo.style.visibility != "hidden"){
-    //     v = "visible";
-    //     screamerVideo.style.visibility = v;
-    //     }
-    //     screamerVideo.requestFullscreen();
-    //     tag.style.display = "block";
-    //     screamerVideo.currentTime = 0;
-    //     screamerVideo.play();
-    // }
-    // var rand = Math.floor(Math.random()*14)+0;
-    // function screamer(){
-    // rand++;
-    // if(rand!=15)
-    //     honk();
-    // else{
-    //     Video5();
-    //     rand = Math.floor(Math.random()*15); 
-    // }
-    // }  
+    function screamer(){
+    rand++;
+    if(rand<15)
+        honk();
+    else{
+        Video5();
+        rand = Math.floor(Math.random()*15); 
+    }
+    }  
